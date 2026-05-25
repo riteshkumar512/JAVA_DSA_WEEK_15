@@ -1,0 +1,17 @@
+package Lecture_24;
+
+public class Dynamic_StackClient {
+    static void main() throws Exception {
+        Dynamic_Stack ds=new Dynamic_Stack();
+        ds.push(10);
+        ds.push(20);
+        ds.push(30);
+        ds.push(40);
+        ds.push(50);
+        ds.push(60);
+        ds.push(70);
+        ds.push(80);
+        ds.display();
+
+    }
+}
